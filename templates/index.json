@@ -178,7 +178,7 @@
     "video": {
       "type": "video",
       "settings": {
-        "heading": "Video",
+        "heading": "Video (not full width)",
         "cover_image": "shopify:\/\/shop_images\/mlouye-ivy-brown-desk1.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
@@ -254,6 +254,128 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
+    },
+    "1635347843ee4fb032": {
+      "type": "featured-product",
+      "blocks": {
+        "1635347843ee4fb032-0": {
+          "type": "text",
+          "settings": {
+            "text": "Featured product (secondary background)",
+            "text_style": "uppercase"
+          }
+        },
+        "1635347843ee4fb032-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1635347843ee4fb032-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1635347843ee4fb032-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1635347843ee4fb032-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1635347843ee4fb032-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1635347843ee4fb032-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "1635347843ee4fb032-0",
+        "1635347843ee4fb032-1",
+        "1635347843ee4fb032-2",
+        "1635347843ee4fb032-3",
+        "1635347843ee4fb032-4",
+        "1635347843ee4fb032-5",
+        "1635347843ee4fb032-6"
+      ],
+      "settings": {
+        "product": "brick-apple",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1635347940d6370056": {
+      "type": "featured-product",
+      "blocks": {
+        "1635347940d6370056-0": {
+          "type": "text",
+          "settings": {
+            "text": "Featured product (primary background)",
+            "text_style": "uppercase"
+          }
+        },
+        "1635347940d6370056-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1635347940d6370056-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1635347940d6370056-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1635347940d6370056-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1635347940d6370056-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1635347940d6370056-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "1635347940d6370056-0",
+        "1635347940d6370056-1",
+        "1635347940d6370056-2",
+        "1635347940d6370056-3",
+        "1635347940d6370056-4",
+        "1635347940d6370056-5",
+        "1635347940d6370056-6"
+      ],
+      "settings": {
+        "product": "brick-apple",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
     }
   },
   "order": [
@@ -264,6 +386,8 @@
     "collage",
     "video",
     "1635347280d05c7998",
-    "1635347795051db291"
+    "1635347795051db291",
+    "1635347843ee4fb032",
+    "1635347940d6370056"
   ]
 }
