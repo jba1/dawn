@@ -6,8 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Theme settings examples",
             "heading_size": "medium"
+          }
+        },
+        "1595cbb7-faa5-47c9-b00c-e60ec4bf5b1e": {
+          "type": "text",
+          "settings": {
+            "text": "Try changing the Sections > Corners setting and the Sections > Heading alignment setting."
           }
         },
         "button": {
@@ -24,6 +30,7 @@
       },
       "block_order": [
         "heading",
+        "1595cbb7-faa5-47c9-b00c-e60ec4bf5b1e",
         "button"
       ],
       "settings": {
