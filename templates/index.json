@@ -13,7 +13,7 @@
         "1595cbb7-faa5-47c9-b00c-e60ec4bf5b1e": {
           "type": "text",
           "settings": {
-            "text": "Try changing the Sections > Corners setting and the Sections > Heading alignment setting."
+            "text": "Try changing the Sections > Corners setting and the Sections > Heading alignment setting. You can also change the mock (not functioning) Spacing > Column spacing setting to \"none\" to see which sections still receive rounded corners"
           }
         },
         "button": {
