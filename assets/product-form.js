@@ -4,6 +4,7 @@ if (!customElements.get('product-form')) {
       super();
 
       this.form = this.querySelector('form');
+      this.form.querySelector('[name=id]').disabled = false;
       this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
       this.cartNotification = document.querySelector('cart-notification');
     }
@@ -11,21 +12,23 @@ if (!customElements.get('product-form')) {
     onSubmitHandler(evt) {
       evt.preventDefault();
       const submitButton = this.querySelector('[type="submit"]');
-      if (submitButton.classList.contains('loading')) return; 
+      if (submitButton.classList.contains('loading')) return;
 
       this.handleErrorMessage();
       this.cartNotification.setActiveElement(document.activeElement);
 
       submitButton.setAttribute('aria-disabled', true);
       submitButton.classList.add('loading');
+      this.querySelector('.loading-overlay__spinner').classList.remove('hidden');
 
       const config = fetchConfig('javascript');
       config.headers['X-Requested-With'] = 'XMLHttpRequest';
-      config.body = JSON.stringify({
-        ...JSON.parse(serializeForm(this.form)),
-        sections: this.cartNotification.getSectionsToRender().map((section) => section.id),
-        sections_url: window.location.pathname
-      });
+      delete config.headers['Content-Type'];
+
+      const formData = new FormData(this.form);
+      formData.append('sections', this.cartNotification.getSectionsToRender().map((section) => section.id));
+      formData.append('sections_url', window.location.pathname);
+      config.body = formData;
 
       fetch(`${routes.cart_add_url}`, config)
         .then((response) => response.json())
@@ -43,6 +46,7 @@ if (!customElements.get('product-form')) {
         .finally(() => {
           submitButton.classList.remove('loading');
           submitButton.removeAttribute('aria-disabled');
+          this.querySelector('.loading-overlay__spinner').classList.add('hidden');
         });
     }
 
