@@ -1,0 +1,198 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "163418398010505275": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"width: 100%; display: block; height: 20px;\"><\/div>"
+      }
+    },
+    "163418383937eacd19": {
+      "type": "rich-text",
+      "blocks": {
+        "163418383937eacd19-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Since launching in 2015, LifeThreads has worked to reinvent uniforms for medical professionals.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "163418383937eacd19-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "163418432912dc7ea8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"width: 100%; display: block; height: 20px;\"><\/div>"
+      }
+    },
+    "1634183936342d2dc4": {
+      "type": "image-with-text",
+      "blocks": {
+        "1634183936342d2dc4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story"
+          }
+        },
+        "1634183936342d2dc4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Combining innovative antimicrobial technologies with soft, stretchy, and stylish apparel has been our mission from day one.<br\/><\/p><p>At LifeThreads, we believe in working hard and dressing well. In our designs, medical professionals can look, feel, and do their best.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1634183936342d2dc4-0",
+        "1634183936342d2dc4-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LifeThreads-Our-Story-1_800x_f824249b-47f4-4ada-b6cb-bde8763d71d3.jpg",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "text_first"
+      }
+    },
+    "16341843381907e9ab": {
+      "type": "image-with-text",
+      "blocks": {
+        "16341843381907e9ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Mission"
+          }
+        },
+        "16341843381907e9ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We design the uniform healthcare professionals deserve, by building a premium lifestyle brand with tailored designs made to fit and flatter.<\/p><p>Every hero needs a cape - let us help you find yours.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16341843381907e9ab-0",
+        "16341843381907e9ab-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LifeThreads-Collage-Our-Mission_800x_58da16e7-2fad-4e52-9360-80499cd79867.jpg",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
+    "1634184387dcf7254d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1634184387dcf7254d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Group Orders"
+          }
+        },
+        "1634184387dcf7254d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you looking to upgrade your staff to the next generation of medical apparel? We offer discounts, custom embroidery, mobile fittings, and access to a dedicated relationship manager. Send us a message to get started.<\/p>"
+          }
+        },
+        "c3697a46-011a-44db-824c-d2bf1f120b4f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "shopify:\/\/pages\/group-orders"
+          }
+        }
+      },
+      "block_order": [
+        "1634184387dcf7254d-0",
+        "1634184387dcf7254d-1",
+        "c3697a46-011a-44db-824c-d2bf1f120b4f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LifeThreads-Collage-Group-Orders_800x_0674c3cb-001a-4c37-8d3b-8469cddd62d0.jpg",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "text_first"
+      }
+    },
+    "16341871359d750a16": {
+      "type": "multicolumn",
+      "blocks": {
+        "16341871359d750a16-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_19_600x_7fcc87b7-14b6-416e-8cd3-a37859854555.png",
+            "title": "Exclusive Perks",
+            "text": "<p>Get access to exclusive benefits including discounts, special promos, and a dedicated relationship manager.<\/p>"
+          }
+        },
+        "16341871359d750a16-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_18_400x_e0c0d4a5-0c64-463a-a44f-7b0ca09a822e.png",
+            "title": "Customer Service",
+            "text": "<p>We work with you to fulfill your group's unique needs — we do it all, from phone orders to personalized service. Our team has your back.<\/p>"
+          }
+        },
+        "16341871359d750a16-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_17_400x_ba7846c3-61f8-4de8-a039-24c55bb18850.png",
+            "title": "Simplified Ordering",
+            "text": "<p>We offer custom ordering solutions, fast delivery, and Pack-By-Employee Fulfillment for quick and easy distribution when your shipment arrives.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16341871359d750a16-0",
+        "16341871359d750a16-1",
+        "16341871359d750a16-2"
+      ],
+      "settings": {
+        "title": "How You'll Benefit",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "163418814656f8e138": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"width: 100%; margin: 0 auto; background-color: #235; padding: 25px 20px;\">\n\n<h2 style=\" font-size: 2em; text-align: center; color: #FFF; margin-bottom: 5px;\">We're Trusted By<\/h2>\n\n<div style=\"display: flex; align-items: center; justify-content: space-around; margin: 0 auto; max-width: 800px; flex-flow: row wrap;\">\n<img style=\"max-width: 180px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/9433\/9669\/files\/MercyHealth_white_400x.png?v=1609775308\">\n<img style=\"max-width: 180px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/9433\/9669\/files\/HCA_white_400x.png?v=1609775319\">\n<img style=\"max-width: 180px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/9433\/9669\/files\/Northwell_white_400x.png?v=1609775334\">\n<img style=\"max-width: 180px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/9433\/9669\/files\/Baptist_white_400x.png?v=1609775347\">\n<\/div>\n\n<\/div>"
+      }
+    },
+    "1634189176444ad78c": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact Us"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163418398010505275",
+    "163418383937eacd19",
+    "163418432912dc7ea8",
+    "1634183936342d2dc4",
+    "16341843381907e9ab",
+    "1634184387dcf7254d",
+    "16341871359d750a16",
+    "163418814656f8e138",
+    "1634189176444ad78c"
+  ]
+}

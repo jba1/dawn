@@ -1,0 +1,129 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.my_fields.product_gender.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "ebbc13ac-ff94-4ba2-aaf9-2ee16554e181": {
+          "type": "popup",
+          "settings": {
+            "text": "Size Chart",
+            "page": "{{ product.metafields.my_fields.size_chart.value }}"
+          }
+        },
+        "313381df-c99e-481c-96ca-7ab9e73612b6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<fieldset class=\"js product-form__input\">\n                        <legend class=\"form__label\">Length<\/legend>\n\n<input type=\"radio\" checked=\"\">                   <label>                       Petite              <\/label>\n<\/a>\n\n<a href=\"{{ product.url | remove: \"-petite\" }}\" style=\"text-decoration: none;\">\n<input type=\"radio\">\n<label>\nRegular\n<\/label>\n<\/a>\n\n<a href=\"{{ product.url | remove: \"-petite\" }}-tall\" style=\"text-decoration: none;\">\n<input type=\"radio\">\n<label>\nTall\n<\/label>\n<\/a>\n\n<\/fieldset>"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "31711994-357f-4792-9b14-024ade0c250d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fabric & Care",
+            "content": "<p>{{ product.metafields.my_fields.fabric.value }}<\/p><p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "shirt"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "subtitle",
+        "title",
+        "price",
+        "variant_picker",
+        "ebbc13ac-ff94-4ba2-aaf9-2ee16554e181",
+        "313381df-c99e-481c-96ca-7ab9e73612b6",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "31711994-357f-4792-9b14-024ade0c250d",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "hide_variants": true,
+        "enable_video_looping": false
+      }
+    },
+    "1633551869ef264020": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<img src=\"{{ my_fields.variant_image_2 | img_url }}\">"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1633551869ef264020",
+    "product-recommendations"
+  ]
+}

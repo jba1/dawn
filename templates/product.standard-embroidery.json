@@ -1,0 +1,139 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.my_fields.product_gender.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "6c748961-8d67-4de2-8ee9-737793901532": {
+          "type": "popup",
+          "settings": {
+            "text": "Size Chart",
+            "page": "{{ product.metafields.my_fields.size_chart.value }}"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "173b4227-4e29-40aa-b9b1-be169f6092b7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Embroidery",
+            "content": "",
+            "page": "test-embroidery-options",
+            "icon": "shirt"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "31711994-357f-4792-9b14-024ade0c250d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fabric & Care",
+            "content": "<p>{{ product.metafields.my_fields.fabric.value }}<\/p><p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "1c32c470-848b-4fda-8a5d-0f6b90094cb3": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "subtitle",
+        "title",
+        "price",
+        "variant_picker",
+        "6c748961-8d67-4de2-8ee9-737793901532",
+        "quantity_selector",
+        "173b4227-4e29-40aa-b9b1-be169f6092b7",
+        "buy_buttons",
+        "description",
+        "31711994-357f-4792-9b14-024ade0c250d",
+        "1c32c470-848b-4fda-8a5d-0f6b90094cb3",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "hide_variants": true,
+        "enable_video_looping": false
+      }
+    },
+    "1633551869ef264020": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<img src=\"{{ my_fields.variant_image_2 | img_url }}\">"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1633551869ef264020",
+    "product-recommendations"
+  ]
+}

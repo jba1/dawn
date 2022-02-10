@@ -1,34 +1,44 @@
 {
   "sections": {
     "cart-items": {
-      "type": "main-cart-items"
+      "type": "main-cart-items",
+      "settings": {
+        "show_vendor": false
+      }
+    },
+    "16351854807bce94c2": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; flex-flow: row nowrap;     justify-content: flex-end; position: relative; margin: 0 auto; width: 100%; padding: 0 5rem;\" class=\"po-number\">\n<div><\/div>\n<div>\n\n<span class=\"required-field\">*<\/span><label for=\"employee_id\">Employee ID<\/label>\n\n<input type=\"text\" name=\"attributes[Employee ID]\" id=\"employee_id\" value=\"\" required=\"required\">\n\n<\/div>\n\t\t\n<\/div>"
+      }
     },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
         "subtotal": {
-          "type": "subtotal"
+          "type": "subtotal",
+          "settings": {
+          }
         },
         "buttons": {
-          "type": "buttons"
+          "type": "buttons",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "subtotal",
         "buttons"
-      ]
-    },
-    "featured-products": {
-      "type": "featured-collection",
+      ],
       "settings": {
-        "collection": "all",
-        "image_ratio": "square"
+        "show_cart_note": false
       }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer",
-    "featured-products"
+    "16351854807bce94c2",
+    "cart-footer"
   ]
 }

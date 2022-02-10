@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1635210157aeffd082": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "RN - Women’s",
+        "collection": "rn-women-s",
+        "products_to_show": 12,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
+    "163521022686d6315f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "RN - Men’s",
+        "collection": "rn-men-s",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1635210157aeffd082",
+    "163521022686d6315f"
+  ]
+}

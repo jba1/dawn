@@ -1,6 +1,12 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+  <link rel="stylesheet" href="https://obscure-escarpment-2240.herokuapp.com/stylesheets/bcpo-front.css">
+  <script>var bcpo_product={{ product | json }}; {% if product.metafields.bcpo.bcpo_data %}var bcpo_data={{ product.metafields.bcpo.bcpo_data }};{% endif %} {% if shop.metafields.bcpo.bcpo_settings %}var bcpo_settings={{ shop.metafields.bcpo.bcpo_settings }};{% endif %}var inventory_quantity = [];{% for v in product.variants %}inventory_quantity.push({{v.inventory_quantity}});{% endfor %}if(bcpo_product) { for (var i = 0; i < bcpo_product.variants.length; i += 1) { bcpo_product.variants[i].inventory_quantity = inventory_quantity[i]; }}window.bcpo = window.bcpo || {}; bcpo.cart = {{cart | json}}; bcpo.ogFormData = FormData;</script>
+	<script>if (window.bcpo_settings) bcpo_settings.theme2 = 'on';</script>
+    
+    
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -31,6 +37,7 @@
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
+  <script id="vopo-head">(function () { if (((document.documentElement.innerHTML.includes('asyncLoad') && !document.documentElement.innerHTML.includes('\/obscure' + '-escarpment-2240')) || (window.bcpo && bcpo.disabled)) && !window.location.href.match(/[&?]yesbcpo/)) return; var script = document.createElement('script'); script.src = "https://obscure-escarpment-2240.herokuapp.com/js/best_custom_product_options.js?shop={{shop.permanent_domain}}"; var vopoHead = document.getElementById('vopo-head'); vopoHead.parentNode.insertBefore(script, vopoHead); })();</script>
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
@@ -45,17 +52,37 @@
       {{ body_font_bold_italic | font_face: font_display: 'swap' }}
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
+      @font-face {
+        font-family: "Alpina";
+        src: url('{{ "alpina-var.woff2" | asset_url }}') format("woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Alpina";
+        src: url('{{ "alpina-var-italic.woff2" | asset_url }}') format("woff2");
+        font-weight: normal;
+        font-style: italic;
+      }
+
+      @font-face {
+        font-family: "sf-sans-var";
+        src: url('{{ "sf-sans-var.woff2" | asset_url }}') format("woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+
       :root {
-        --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
-        --font-body-style: {{ settings.type_body_font.style }};
-        --font-body-weight: {{ settings.type_body_font.weight }};
+        --font-body-family: "sf-sans-var", sans-serif;
+        --font-body-style: normal;
+        --font-body-weight: normal;
+        --font-body-variation-settings: "wght" 150, "wdth" -40;
 
-        --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
-        --font-heading-style: {{ settings.type_header_font.style }};
-        --font-heading-weight: {{ settings.type_header_font.weight }};
-
-        --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
-        --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
+        --font-heading-family: "Alpina", serif;
+        --font-heading-style: normal;
+        --font-heading-weight: normal;
+        --font-heading-variation-settings: "wght" 530,"wdth" 380,"DISP" 0;
 
         --color-base-text: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
         --color-base-background-1: {{ settings.colors_background_1.red }}, {{ settings.colors_background_1.green }}, {{ settings.colors_background_1.blue }};
@@ -72,7 +99,6 @@
         --gradient-base-accent-2: {% if settings.gradient_accent_2 != blank %}{{ settings.gradient_accent_2 }}{% else %}{{ settings.colors_accent_2 }}{% endif %};
 
         --page-width: {{ settings.page_width | divided_by: 10 }}rem;
-        --page-width-margin: {% if settings.page_width == '1600' %}2{% else %}0{% endif %}rem;
       }
 
       *,
@@ -83,7 +109,7 @@
 
       html {
         box-sizing: border-box;
-        font-size: calc(var(--font-body-scale) * 62.5%);
+        font-size: 62.5%;
         height: 100%;
       }
 
@@ -95,10 +121,13 @@
         margin: 0;
         font-size: 1.5rem;
         letter-spacing: 0.06rem;
-        line-height: calc(1 + 0.8 / var(--font-body-scale));
+        line-height: 1.8;
         font-family: var(--font-body-family);
         font-style: var(--font-body-style);
         font-weight: var(--font-body-weight);
+        font-variation-settings: var(--font-body-variation-settings);
+        letter-spacing: -0.003em;
+        word-spacing: -0.01em;
       }
 
       @media screen and (min-width: 750px) {
@@ -131,6 +160,7 @@
 
     {% section 'announcement-bar' %}
     {% section 'header' %}
+
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
@@ -142,7 +172,6 @@
     </ul>
 
     <script>
-      window.shopUrl = '{{ shop.url }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
         cart_change_url: '{{ routes.cart_change_url }}',
@@ -152,7 +181,7 @@
 
       window.cartStrings = {
         error: `{{ 'sections.cart.cart_error' | t }}`,
-        quantityError: `{{ 'sections.cart.cart_quantity_error_html' | t: quantity: '[quantity]' }}`
+        quantityError: `{{ 'sections.cart.cart_quantity_error_html' | t }}`
       }
 
       window.variantStrings = {

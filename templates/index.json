@@ -2,105 +2,132 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "Companion Pet Uniforms",
+            "heading_size": "medium"
           }
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_label_2": ""
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "47163606-af87-4e81-abd6-c8406922d612": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Scrubs & Apparel Available for 20% Off Retail Prices"
           }
         }
       },
       "block_order": [
         "heading",
-        "button"
-      ]
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading"
-        },
-        "text": {
-          "type": "text"
-        },
-        "button": {
-          "type": "button"
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ]
-    },
-    "featured_products": {
-      "type": "featured-collection",
+        "button",
+        "47163606-af87-4e81-abd6-c8406922d612"
+      ],
       "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
+        "image": "shopify:\/\/shop_images\/lt-bg-1.jpg",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 30,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
-    "collage": {
-      "type": "collage",
+    "1634228218155f59be": {
+      "type": "image-with-text",
       "blocks": {
-        "video": {
-          "type": "video"
+        "1634228218155f59be-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LifeThreads Scrubs"
+          }
         },
-        "product": {
-          "type": "product"
-        },
-        "collection": {
-          "type": "collection"
+        "1634228218155f59be-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LifeThreads scrubs are the first in the world to integrate fit, fashion, and function. Our scrubs combine antimicrobial and fluid-repellent technology with comfortable, breathable stretch fabric and flattering styles.<\/p><p>At LifeThreads, we believe in working hard and dressing well. In our designs, medical professionals can look, feel, and do their best.<\/p>"
+          }
         }
       },
       "block_order": [
-        "video",
-        "product",
-        "collection"
-      ]
+        "1634228218155f59be-0",
+        "1634228218155f59be-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LifeThreads-Collage-Our-Mission.jpg",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "text_first"
+      }
     },
-    "video": {
-      "type": "video"
-    },
-    "multi_column": {
+    "1632416250dfb61d30": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
-          "type": "column"
+        "1632416250dfb61d30-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_21_400x_1.png",
+            "title": "Antimicrobial",
+            "text": "<p>VioFence+ technology in our fabric works to inhibit unwanted odor-causing bacteria and fungi.<\/p>"
+          }
         },
-        "column2": {
-          "type": "column"
+        "1632416250dfb61d30-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_23_400x_1.png",
+            "title": "Moisture-Wicking & Breathable",
+            "text": "<p>Made with lightweight, breathable, stretch fabric to keep you comfortable throughout long shifts.<\/p>"
+          }
         },
-        "column3": {
-          "type": "column"
+        "1632416250dfb61d30-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_20_600x_1.png",
+            "title": "Fluid-Repellent",
+            "text": "<p>Keeps you dry all day! Liquids roll right off the fabric without being absorbed, keeping you safe and clean.<\/p>"
+          }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ]
+        "1632416250dfb61d30-0",
+        "1632416250dfb61d30-1",
+        "1632416250dfb61d30-2"
+      ],
+      "settings": {
+        "title": "LifeThreads Viofence+ Technology",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Learn More",
+        "button_link": "shopify:\/\/pages\/our-fabric-tech",
+        "swipe_on_mobile": false
+      }
+    },
+    "16351760590b1518d4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"width: 100%; height: 10px; display: block;\"><\/div>"
+      }
     }
   },
   "order": [
     "image_banner",
-    "rich_text",
-    "featured_products",
-    "collage",
-    "video",
-    "multi_column"
+    "1634228218155f59be",
+    "1632416250dfb61d30",
+    "16351760590b1518d4"
   ]
 }

@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "163415260327093147": {
+      "type": "image-with-text",
+      "blocks": {
+        "163415260327093147-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Group Orders"
+          }
+        },
+        "3ee595da-7e23-4f5a-8f2a-a95d790c1551": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you looking to upgrade your staff to the next generation of medical apparel? We offer discounts, custom embroidery, mobile fittings, and access to a dedicated relationship manager. Send us a message to get started.<\/p>"
+          }
+        },
+        "163415260327093147-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "#shopify-section-template--15166837620911__163419095864ecd2eb"
+          }
+        }
+      },
+      "block_order": [
+        "163415260327093147-0",
+        "3ee595da-7e23-4f5a-8f2a-a95d790c1551",
+        "163415260327093147-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LifeThreads-Collage-Group-Orders_800x_2c831e7a-7dac-4009-a439-ab72f6a95712.jpg",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "text_first"
+      }
+    },
+    "16341581491700fa2d": {
+      "type": "multicolumn",
+      "blocks": {
+        "16341581491700fa2d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Improve-Staff_600x_2536a60a-2d5f-422d-bf93-ff573ad100e3.png",
+            "title": "Improve Staff & Patient Safety",
+            "text": "<p>Don't bring microbes home with you! Our proprietary technology is the only scrub to be tested and proven highly effective against bacteria concentrations.<\/p>"
+          }
+        },
+        "16341581491700fa2d-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Customer-Experience_400x_6609ef85-23a2-4caf-849b-11d21f14984c.png",
+            "title": "Customer Experiences",
+            "text": "<p>LifeThreads creates custom experiences based on your team’s unique needs — we do it all, from phone orders to white glove service. Our team has your back.<\/p>"
+          }
+        },
+        "16341581491700fa2d-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Perks_400x_f74525da-4c7a-4265-ad99-729207998547.png",
+            "title": "The Perks",
+            "text": "<p>Teams get access to perks like discounts, custom logo embroidery, special promos, and access to a dedicated relationship manager. We offer scrubs, lab coats, jackets, polos and other products to make your program complete.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16341581491700fa2d-0",
+        "16341581491700fa2d-1",
+        "16341581491700fa2d-2"
+      ],
+      "settings": {
+        "title": "Why teams wear LifeThreads",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1634155024d781abbc": {
+      "type": "image-with-text",
+      "blocks": {
+        "1634155024d781abbc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "How LifeThreads helps groups achieve their goals"
+          }
+        },
+        "1634155024d781abbc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe that every customer deserves a hassle-free program experience. From providing safer scrubs to customized program experiences, we control the process from the factory to your doorstep. Our goal is to support you in achieving your goals!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1634155024d781abbc-0",
+        "1634155024d781abbc-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LT_image_02-01_700x_1.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163415360672a765f5": {
+      "type": "multicolumn",
+      "blocks": {
+        "163415360672a765f5-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Program-Management_600x_95920da8-da4f-47c8-b1a2-df6427a9e98a.png",
+            "title": "Program Management",
+            "text": "<p>Program options that fit your requirements, are simple for employees, easy to manage, and have the tools and resources you need to keep programs running smoothly.<\/p>"
+          }
+        },
+        "163415360672a765f5-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Communication-Management_600x_a39439de-362e-4ac0-8b2b-4e2113b08add.png",
+            "title": "Communication Management",
+            "text": "<p>Communicating with staff throughout the process reduces frustration and promotes program adoption. Send messages at the right time to keep your project moving in the right direction.<\/p>"
+          }
+        },
+        "163415360672a765f5-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Mobile-Fittings_600x_e3ad58f3-5ea9-4976-812c-3d5af1d9aceb.png",
+            "title": "Mobile Fittings",
+            "text": "<p>We offer onsite fittings with custom guided webstores for your staff's convenience. Scheduling available to ensure all of your staff will have access to the fittings.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163415360672a765f5-0",
+        "163415360672a765f5-1",
+        "163415360672a765f5-2"
+      ],
+      "settings": {
+        "title": "Let's Succeed Together",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16341538597515f81a": {
+      "type": "multicolumn",
+      "blocks": {
+        "16341538597515f81a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Custom-Online_600x_975a362e-7144-44d0-ba0f-e718cbcb699b.png",
+            "title": "Custom Online Ordering",
+            "text": "<p>Save time with our multiple ordering options. We offer everything from 24\/7 webstores to curated collections available for a limited time. Online and phone support available through our friendly staff.<\/p>"
+          }
+        },
+        "16341538597515f81a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Pack-by-Employee_600x_5a64bae6-6d69-47d9-9281-fe244c4c6ce9.png",
+            "title": "Pack-By-Employee Fulfillment",
+            "text": "<p>If you order for multiple employees, departments, locations, or a combination of all three, we group items in your shipment by employee for fast and easy distribution when your shipment arrives.<\/p>"
+          }
+        },
+        "16341538597515f81a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Online-Account_600x_d92db1e4-f4bc-42ef-9f88-cf8532f55d68.png",
+            "title": "Online Account Management",
+            "text": "<p>Our administrator portal lets you monitor real-time program performance with a convenient dashboard, order history detail and reporting features.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16341538597515f81a-0",
+        "16341538597515f81a-1",
+        "16341538597515f81a-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1634190844ebeafd7f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"width: 100%; margin: 0 auto; background-color: #235; padding: 25px 20px;\">\n\n<h2 style=\" font-size: 2em; text-align: center; color: #FFF; margin-bottom: 5px;\">We're Trusted By<\/h2>\n\n<div style=\"display: flex; align-items: center; justify-content: space-around; margin: 0 auto; max-width: 800px; flex-flow: row wrap;\">\n<img style=\"max-width: 180px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/9433\/9669\/files\/MercyHealth_white_400x.png?v=1609775308\">\n<img style=\"max-width: 180px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/9433\/9669\/files\/HCA_white_400x.png?v=1609775319\">\n<img style=\"max-width: 180px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/9433\/9669\/files\/Northwell_white_400x.png?v=1609775334\">\n<img style=\"max-width: 180px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/9433\/9669\/files\/Baptist_white_400x.png?v=1609775347\">\n<\/div>\n\n<\/div>"
+      }
+    },
+    "16341587912bcad81e": {
+      "type": "image-with-text",
+      "blocks": {
+        "16341587912bcad81e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to elevate your team's wardrobe?"
+          }
+        },
+        "16341587912bcad81e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "#shopify-section-template--15166837620911__163419095864ecd2eb"
+          }
+        }
+      },
+      "block_order": [
+        "16341587912bcad81e-0",
+        "16341587912bcad81e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LT_image_01_700x_575ad9fb-0e24-44c3-a82d-1b60a9b95105.png",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
+    "163419095864ecd2eb": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163415260327093147",
+    "16341581491700fa2d",
+    "1634155024d781abbc",
+    "163415360672a765f5",
+    "16341538597515f81a",
+    "1634190844ebeafd7f",
+    "16341587912bcad81e",
+    "163419095864ecd2eb"
+  ]
+}
